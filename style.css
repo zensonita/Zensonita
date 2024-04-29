@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+}
+.btn {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+  }
+  
+  .btn:hover {
+    background-color: #45a049; /* Darker Green */
+  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+.content {
+    background-color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-btn {
+    background-color: #47392C;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #ffa000;
+}
+.logo-title{
+    margin-right: auto;
+}
+.logo {
+    margin-right: auto;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.primay-nav {
+    height: 80px;
+    align-items: center;
+    margin: 0 100px 0 100px;
+}
+
+.secondary-nav {
+    height: 60px;
+    background-color: #F7F5F3;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary-nav h1 {
+    font-size: 16px;
+}
+
+.three-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.column {
+    height: 700px;
+}
+
+.hero-text-img {
+    height: 350px;
+    margin-top: 250px;
+}
+
+.hero-img {
+    height: 650px;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.date-col {
+    width: 20%;
+}
+
+.description-col {
+    width: 80%;
+}
+
+#news div div h2 {
+    font-size: 60px;
+}
+
+#news div div p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#news div div span {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+#news {
+    background-color: #F7F5F3;
+}
+
+#products div h2 {
+    font-size: 60px;
+}
+
+#products div p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#products div span {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+.card {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img {
+    width: 180px;
+    padding: 35px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-content p{
+
+    padding: 2px;
+  }
+  
+  .card-title p{
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-description p{
+    font-size: 18px;
+    color: #666;
+  }
+  
+
+#products .card .card-content h3 {
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+#products .card .card-content p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.button-container {
+    margin-top: auto;
+    text-align: end;
+}
+
+.button-container button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.last-button-container {
+    margin-top: auto;
+    text-align: center;
+    clear: both;
+}
+
+#about div h2 {
+    font-size: 60px;
+}
+
+#contact div h2 {
+    font-size: 60px;
+}
